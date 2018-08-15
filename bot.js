@@ -12,7 +12,6 @@ const config = JSON.parse(fs.readFileSync("./settings.json"));
 const snek = require("node-superfetch");
 const antispam = require("discord-anti-spam");
 const relevant = require("relevant-animals");
-const phrases = JSON.parse(fs.readFileSync("./forbiddenphrases.json", "utf-8"));
 
 
 var version = package.version;
